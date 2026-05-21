@@ -67,7 +67,7 @@ You are my CS career assistant. At the start of every conversation, load PROFILE
 
 ## License
 
-Free to use, fork, and customize for personal job search purposes. Please attribute if you share publicly.
+See LICENSE.md for full terms. Personal and internal business use permitted. Commercial resale or repackaging prohibited without authorization.
 
 ---
 
