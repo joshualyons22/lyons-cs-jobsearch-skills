@@ -53,6 +53,22 @@ In Claude.ai, create a Project, upload all your customized skill files, and add 
 ### Step 5 — Start using it
 Paste a job description and say "analyze this JD." Ask for a tailored resume. Run mock interview prep. The system handles the rest.
 
+### `/portfolio-site` — Single-File Portfolio Template
+
+A fork-friendly HTML template for showcasing your AI-powered CS workflows. Deploy to Cloudflare Pages in minutes — no build process, no backend required.
+
+**What it includes:**
+- Hero section with 4 key stats and tool overview
+- 3-column deep-dive on your featured AI workflow (before/strategy/after layout)
+- 3 additional tools with impact metrics and flow diagrams
+- Organizational adoption proof (testimonials, distribution, recognition)
+- Email obfuscation for privacy
+- Fully responsive design
+
+**Get started:** See `portfolio-site/README.md` for setup and customization. See `portfolio-site/CUSTOMIZE.md` for line-by-line guidance on every placeholder.
+
+**Live example:** [Joshua J. Lyons AI Portfolio](https://jjl-ai-portfolio-site.gantoris22.workers.dev)
+
 ## Forking and Customizing
 
 Fork this repo to your own GitHub account. All files use `[PLACEHOLDER]` syntax for anything personal — replace placeholders with your own information. Your customized version never affects this original.
