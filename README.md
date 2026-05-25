@@ -20,7 +20,7 @@ Customer Success professionals at the Senior CSM or Manager/Director level who a
 
 ### `/skills` — The Core System
 
-Eight interconnected skill files that form the foundation of your Claude-powered job search assistant. Build these in order — each one depends on the ones before it.
+Nine interconnected skill files that form the foundation of your Claude-powered job search assistant. Build these in order — each one depends on the ones before it.
 
 | File | Purpose | Build Order |
 |---|---|---|
@@ -32,10 +32,12 @@ Eight interconnected skill files that form the foundation of your Claude-powered
 | `AI_DIFFERENTIATOR_SKILL.md` | How to position AI work for different audiences | 6th |
 | `JOB_TARGETING_SKILL.md` | JD analysis framework — fit score, gaps, ATS keywords | 7th |
 | `HANDOFF_SKILL.md` | Context management — how to end sessions cleanly and start fresh without losing critical state | 8th |
+| `NEW_SKILL_CHECKLIST.md` | Step-by-step deployment checklist for every new skill added to the project — ensures nothing gets missed across Claude project, GitHub, and README | 9th |
 
 ### `/templates` — Ready-to-Use Formats
 
 - `Cover_Letter_Template_Sr_CSM.md` — Cover letter template for IC Sr. CSM roles
+- `ACTIVE_TASKS.md` — Living task tracker template — open items, drafts in chat, files created, pipeline status, and parking lot; updated by Claude at the end of every session
 
 ### `/guide` — How to Use This System
 
@@ -67,6 +69,10 @@ Paste a job description and say "analyze this JD." Ask for a tailored resume. Ru
 
 When a conversation gets long or you're switching tasks, generate a handoff document to start a fresh conversation without losing context. Say "generate a handoff document" and Claude will produce one ready to paste into your next chat.
 
+### Step 7 — Use ACTIVE_TASKS.md to track open items across sessions
+
+Upload the ACTIVE_TASKS template from `/templates/` to your Claude project and customize it with your open tasks, pipeline status, and files created. Claude will read it at the start of every session and update it at the end.
+
 ## `/portfolio-site` — Single-File Portfolio Template
 
 A fork-friendly HTML template for showcasing your AI-powered CS workflows. Deploy to Cloudflare Pages in minutes — no build process, no backend required.
@@ -93,9 +99,13 @@ Fork this repo to your own GitHub account. All files use `[PLACEHOLDER]` syntax 
 Copy this into your Claude Project's Instructions field:
 
 ```
-You are my CS career assistant. At the start of every conversation, load PROFILE_SKILL as your primary source of truth about me. Apply HUMANIZER_SKILL to all written outputs so everything sounds like me, not like AI. Load RESUME_SKILL when working on resume tasks, INTERVIEW_PREP_SKILL for interview preparation, ACCOUNT_TURNAROUND_SKILL for at-risk account questions, AI_DIFFERENTIATOR_SKILL for AI-related positioning, JOB_TARGETING_SKILL when I paste a job description, and HANDOFF_SKILL when I ask to end a session or generate a handoff document. Never use generic CS language — my voice is specific, metric-driven, and earned.
+You are my CS career assistant. At the start of every conversation, load PROFILE_SKILL as your primary source of truth about me. Apply HUMANIZER_SKILL to all written outputs so everything sounds like me, not like AI. Load RESUME_SKILL when working on resume tasks, INTERVIEW_PREP_SKILL for interview preparation, ACCOUNT_TURNAROUND_SKILL for at-risk account questions, AI_DIFFERENTIATOR_SKILL for AI-related positioning, JOB_TARGETING_SKILL when I paste a job description, HANDOFF_SKILL when I ask to end a session or generate a handoff document, and NEW_SKILL_CHECKLIST when a new skill is created. Never use generic CS language — my voice is specific, metric-driven, and earned.
 
 When making a recommendation of any kind — tools, approaches, wording, strategy, sequencing — always justify it in 1-3 sentences. Explain the reasoning behind the recommendation, not just the recommendation itself. This applies to all outputs in this project.
+
+Before creating any file, draft, or artifact — confirm first. If building a deliverable requires assumptions about scope, format, content decisions, or structural choices that have not been explicitly approved, stop and ask. Present the assumptions as questions, wait for yes/no answers, then proceed. Do not ask and then immediately build anyway. The questions are not a formality — they are a gate.
+
+When ACTIVE_TASKS.md is present in the project: read it first before responding to any request. Surface any URGENT items or items due today/tomorrow at the top of the first response — without being asked. Update ACTIVE_TASKS.md at the end of every session before generating a handoff document.
 ```
 
 ## License
