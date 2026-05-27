@@ -90,8 +90,18 @@ Pointers to what was built or modified. File names and locations, not content. K
 **6. OPEN ITEMS**
 Things that were identified but not completed. Tasks that need to happen in a future session.
 
-**7. CONTEXT FOR NEXT SESSION**
+**7. PARKING LOT — DEFERRED IDEAS**
+Ideas or tasks that surfaced but were intentionally set aside for a future session. Each parking lot item MUST include three layers:
+- **What** — the idea or task
+- **Why** — the reasoning and context that produced it; what problem it solves, what was evaluated, what was decided and why
+- **Where we left off** — specific enough that a new conversation can pick it up mid-stride without re-establishing context
+
+> ⚠️ **Critical rule:** A parking lot item with only the decision and no context is not a handoff — it's a note. The next conversation will spend the first 10 minutes reconstructing the reasoning instead of doing work. Always include the why.
+
+**8. CONTEXT FOR NEXT SESSION**
 Any specific background the next conversation needs that isn't already in the project skills. Keep this lean — the skills files handle the standing context.
+
+> **Context depth rule:** Simple task continuations need minimal context — just a pointer to where we stopped. Complex decisions, new ideas, or multi-session projects need full context: what was discussed, what was evaluated, what was decided, and why. Match context depth to complexity of the next task.
 
 ---
 
@@ -137,8 +147,22 @@ Any specific background the next conversation needs that isn't already in the pr
 
 ---
 
+## PARKING LOT — DEFERRED IDEAS
+[Each item must include all three layers: What / Why / Where we left off.
+A parking lot item with only the decision and no context is not a handoff — it's a note.]
+
+### [Idea or task name]
+**What:** [The idea or task]
+**Why:** [The reasoning and context — what problem it solves, what was evaluated, what was decided and why]
+**Where we left off:** [Specific enough to pick up mid-stride in a new conversation without re-establishing context]
+
+---
+
 ## CONTEXT FOR NEXT SESSION
-[Only include if there's something the next conversation needs that isn't already in the project skills. Leave blank if not needed.]
+[Only include if there's something the next conversation needs that isn't already in the project skills.
+Simple continuations: minimal context — just a pointer to where we stopped.
+Complex decisions or new projects: full context — what was discussed, evaluated, decided, and why.
+Leave blank if not needed.]
 
 ---
 *Skills active in this project: [list your active skills here]*
@@ -174,8 +198,10 @@ When the user asks for a handoff document, Claude should:
 5. List only decisions that affect future work — not a recap of the whole session
 6. List files/artifacts by name only — no content duplication
 7. List open items that were identified but not completed
-8. Update ACTIVE_TASKS.md to reflect session changes; use recent_chats to populate any missing conversation URLs
-9. Output the completed template, ready to copy/paste
+8. **For every parking lot item:** include all three layers — What, Why, and Where we left off. A parking lot item without context is a note, not a handoff. The next conversation should be able to pick it up mid-stride without asking "what was this about?"
+9. **Match context depth to task complexity** — simple continuations need a pointer; complex decisions and new projects need full reasoning captured
+10. Update ACTIVE_TASKS.md to reflect session changes; use recent_chats to populate any missing conversation URLs
+11. Output the completed template, ready to copy/paste
 
 **Format:** Output the handoff document in a code block so it's easy to copy cleanly.
 
