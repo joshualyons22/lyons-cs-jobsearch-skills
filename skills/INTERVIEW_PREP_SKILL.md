@@ -144,6 +144,20 @@
 **The non-technical version:**
 [Write a 200-word version of your AI story for a non-technical hiring manager. Lead with the problem you were trying to solve, describe what you built in plain language, and land on the business outcome — time saved, quality improved, adoption by others.]
 
+
+---
+
+## LANDMINES & PREEMPTIVE FRAMING
+
+These are the objections your background triggers in an interviewer's head — often unspoken. The rule: own them first, on your terms, before they surface them.
+
+**The formula for every landmine:**
+1. Name the potential concern directly
+2. Reframe with the honest truth
+3. Back it with a specific proof point
+4. Move on — don't dwell
+
+
 ---
 
 ## COMMON INTERVIEW QUESTIONS — PREP NOTES
@@ -172,6 +186,64 @@ Never: Elaborate on internal company politics, express bitterness, speculate abo
 
 ### "Where do you want to be in 5 years?"
 [Write your authentic answer. Should reflect your actual ambitions — IC track, management track, or builder path. Avoid generic answers.]
+
+---
+
+## INTERVIEW PREP DOC FORMAT SPEC
+
+When building interview prep documents, follow this format. It produces clean, scannable, professional docs you can open on your phone between rounds.
+
+### Delivery format
+All interview prep docs are delivered as **.docx files** — not PDF. Open in Word or upload directly to Google Docs as needed.
+
+### Structure (required, in this order)
+1. **TOC** — page 1, clickable/hyperlinked. Covers Heading 1 and Heading 2 levels only.
+2. **Page break** after TOC
+3. **Title block** — interviewer name (large, blue), role/company, date/time, thin rule. No repeating page header — title block on page 1 of content only.
+4. **Interviewer Intel** — who they are, why they're in the room, what will matter to them
+5. **Your Opening** — 60-second spoken intro, formatted per rules below
+6. **Curated Stories** — 2–3 stories selected for this specific interviewer
+7. **Questions to Ask** — 3–4 tailored to the interviewer's role and priorities
+8. **Landmines** — objections or gaps to preemptively navigate
+9. **Appendix — Full Story Bank** — all stories NOT in the curated section, in full SAR format; page break before
+
+### Typography spec
+
+| Element | Size | Style | Notes |
+|---|---|---|---|
+| Default body / S-A-R labels | 10pt | Normal | Base font |
+| Story body text / bullet content | 12pt | Normal | All story paragraphs and bullets |
+| Opening section content | 12pt | Normal | See opening format rules below |
+| Story section headers (H2) | 20pt | Bold, blue | Stand out clearly from surrounding content |
+| Main section headers (H1) | 13pt | Bold, blue, bottom border | — |
+| S / A / R labels | 10pt | Bold + underlined | NOT a heading style — plain paragraph |
+| USE FOR / KEY LINE / notes | 9pt | Italic | Subdued, contextual |
+| Tip lines (💡) | 9pt | Italic | Indented |
+
+Font throughout: **Calibri**. Use a consistent blue for all headers and accents.
+
+### S / A / R labels
+- Bold + single underline, 10pt
+- **Not** Heading 3 — use a plain paragraph with underline formatting
+- More spacing above than below (signals a new section within the story)
+
+### Your Opening format rules
+- **No prose paragraphs.** Break into short standalone chunks at natural breath points — each chunk is its own paragraph.
+- **Full blank line between each chunk** — spacing 120pt above and below each paragraph. This is the rule: every opening chunk gets breathing room, visually separated from the next.
+- Key phrases bolded inline within each chunk.
+- Font size: 12pt throughout.
+- Do NOT use bullet points in the opening section.
+
+### When building multiple prep docs for the same interview loop
+- Story details must be **identical across all docs** — only which stories appear in the curated section changes
+- All other stories go in the appendix so the interviewer can reference them if a conversation goes somewhere unexpected
+- Present all files for download simultaneously at the end of the session
+
+### Appendix
+- Page break before
+- Full SAR format for every story not in the curated section
+- Stories separated by thin grey dividers
+- Header note: *"All remaining stories from the master story bank. Same details as the curated stories above — consistent across all docs in this interview loop."*
 
 ---
 
@@ -217,6 +289,6 @@ If asked to prepare a 30/60/90 day plan or a CS strategy presentation:
 
 ---
 
-*Last updated: [Month Year]*
+*Last updated: May 2026 — Interview Prep Doc Format Spec added: .docx delivery, clickable TOC, title block on page 1 only (no repeating header), S/A/R labels as bold+underline plain text (not H3), story headers at 20pt, story/opening body at 12pt, opening section in short standalone chunks with full blank line between each, full story bank appendix required in all curated prep docs*
 *Depends on: PROFILE_SKILL, HUMANIZER_SKILL*
 *Used for: behavioral interview prep, mock interviews, question coaching, presentation prep*
