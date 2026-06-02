@@ -33,6 +33,7 @@ Nine interconnected skill files that form the foundation of your Claude-powered 
 | `JOB_TARGETING_SKILL.md` | JD analysis framework — fit score, gaps, ATS keywords | 7th |
 | `HANDOFF_SKILL.md` | Context management — how to end sessions cleanly and start fresh without losing critical state | 8th |
 | `NEW_SKILL_CHECKLIST.md` | Step-by-step deployment checklist for every new skill added to the project — ensures nothing gets missed across Claude project, GitHub, and README | 9th |
+| `INTERVIEW_PREP_DOC_SKILL.md` | Governs structure, format, story selection, and delivery for all interview prep documents | 10th |
 
 ### `/templates` — Ready-to-Use Formats
 
