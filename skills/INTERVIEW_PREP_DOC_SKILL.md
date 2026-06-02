@@ -53,6 +53,34 @@ Before writing a single line of the doc, confirm all of the following:
 
 ---
 
+## STANDARD OPENING STATEMENT
+
+Joshua's standard opening for most interviews. Evergreen — use verbatim unless the narrative angle requires a different lead (see PROFILE_SKILL).
+
+**Formatting rules:**
+- Bold phrases as marked
+- "turning them into referencable partners that grow" → bold AND blue (#1F4E78)
+- Phrases marked `[expand live]` are intentional trailing prompts — Joshua fills these in from memory; do not complete them in the doc
+- No italics anywhere in the opening
+
+---
+
+I've spent over 25 years focused on **complex customer accounts in cybersecurity** and cloud infrastructure — many that had been damaged, churned through multiple CSMs, or **were sitting at risk ahead of renewal**.
+
+My track record is taking those accounts and **turning them into referencable partners that grow**.
+
+At Cloudflare I had an Enterprise book of 20 customers at an ARR between $12–14M beginning to end.
+
+**I protected about $4M in at-risk ARR across six accounts that were flagged when I picked them up, and grew my book 20% over five quarters.**
+
+My first two decades in this business were primarily in Sales roles. I know from experience what AEs… *[expand live]*
+
+I also want to mention my philosophy about the **2 types of customers** and how it relates to CSMs and AEs — I view **External customers** and **Internal customers** — **building this relationship**… *[expand live]*
+
+Good CSMs treat the AE relationship as a partnership, not a handoff. I don't surface expansion signals and sit on them — I take them to the account team and we build the play together.
+
+---
+
 ## DOCUMENT STRUCTURE
 
 Every prep doc — Google Doc or .docx — follows this structure in this order:
@@ -72,8 +100,8 @@ Every prep doc — Google Doc or .docx — follows this structure in this order:
    - What will land vs. what to avoid with this specific person
 
 4. **Opening Statement**
-   - Evergreen through-line from the master doc
-   - Any company-specific framing adjustments noted inline
+   - Use the Standard Opening Statement above verbatim
+   - Note any company-specific framing adjustments inline if the narrative angle requires it
 
 5. **Curated Stories** (2–3 stories, selected for this interviewer)
    - Full SAR format — see story format rules below
@@ -210,6 +238,8 @@ Pull 4–5 questions from the Question Bank in the master Google Doc. Selection 
 - **Match to company stage** — Series B/C startup: ask about playbook maturity, team size, what's being built. Enterprise/public: ask about CS motion, renewal ownership, exec engagement
 - **Match to interviewer role** — CS Director/VP: ask about team structure, success definition, onboarding. Recruiter: ask about role scope, team, timeline. Peer CSM: ask about day-to-day, tech stack, culture
 - **Always include** "What would make someone in this role clearly successful at 12 months — beyond the metrics?"
+- **Always include for Hiring Managers and Senior CS Leaders** — "How do CSMs currently work with customers to verify outcomes and quantify ROI — is there a formal method/playbook in place, or is that a gap that needs to be developed?"
+- **Culture questions** — reserve for peer interviews and final rounds only. If the interviewer's round is unknown when building the doc, ask Joshua before including or excluding culture questions.
 - **Add 1–2 company-specific questions** based on what's known about their CS motion, recent news, or product focus
 
 ---
@@ -308,6 +338,6 @@ Do not build until Joshua says yes.
 
 ---
 
-*Last updated: June 2, 2026 — skill created; codifies Interview Prep Doc structure, story format standard, heading hierarchy, story selection rules, question/landmine selection, delivery workflow, and master doc reference*
+*Last updated: June 2, 2026 — updated: standard opening statement added with bold/blue formatting rules (blue on "turning them into referencable partners that grow"); ROI/outcome verification question added for HMs/Sr CS Leaders; culture question reserved for peer/final rounds; interviewer role clarification prompt added*
 *Depends on: PROFILE_SKILL, HUMANIZER_SKILL, INTERVIEW_PREP_SKILL, INTERVIEW_INTELLIGENCE*
 *Used for: building Google Doc and .docx interview prep documents per-interview*
